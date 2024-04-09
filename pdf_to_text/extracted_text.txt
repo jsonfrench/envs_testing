@@ -1,0 +1,128 @@
+MA 130-01jCS 502 Applied Discrete Mathematics Spring 2023
+(Theoretical Foundations of Computer Science)
+Instructor: Dr. Emanuel Andriescu epalsu@monmouth.edu
+Oce: HH 228 (732)-571-3524 Oce Hours: MW 10-11:30
+Course Information
+Class Meetings: T 10:05-11:25, Th 8:30-9:50; HH 306.
+Textbook:
+Discrete Mathematics for Computer Science , by Liben{Nowell, 2017.
+Discrete Mathematics: Mathematical Reasoning and Proof with Puzzles, Patterns, and Games ,
+by Ensley and Crawley, 2006.
+eCampus: Course materials and announcements will be posted on eCampus.
+Course Description: Introduction to reasoning, proof, and exposition in mathematics. Top-
+ics include Boolean logic, set theory, counting techniques, functions, mathematical induction,
+permutations and the proofs of various elementary theorems.
+Learning Goals: At the end of this course, students will be able to:
+Develop simple direct, indirect, and inductive proofs.
+Give accurate proofs of a few important classical theorems.
+Prove statements from set theory.
+Demonstrate understanding of elementary topics from number theory via computations,
+explanations, proofs, and cryptography.
+Solve elementary combinatorial problems.
+Demonstrate an understanding of the denition of function and a range of special kinds of
+functions, such as permutations and recursively dened functions.
+State mathematical denitions correctly.
+Demonstrate communication and problem-solving skills that enable you to meaningfully
+investigate, discuss, and solve problems using proper language, syntax, and notation, both
+orally and in writing.
+Translate mathematical statements between English and mathematical symbolism.
+Course Expectations
+The course has signicant reading and presentation components. Youareexpected tostudy the
+assigned material before coming toclass, which will primarily be problem solving oriented. Being
+familiar with the main denitions, examples and results from the topic that will be discussed in
+the next class is crucial in setting the stage for a productive and engaging class session.
+Classwork/Participation: Much of your learning will evolve from in-class activities, experi-
+ences and discussions. Regular attendance and a high level of class participation are required. I
+expect students to come to each class prepared to participate in the class work. This includes
+bringing clean paper and a writing implement.
+Most of the class time will be spent working on problems, both individually and in groups, with
+students presenting their work attheboard.If you must miss a class, please be aware that it is your responsibility to learn the material
+covered, as well as any announcements or other information presented.
+Presentations: During the semester students will be required to present problems to the class.
+The solutions should be clearly justied and the student should be able to answer related ques-
+tions from the classmates or instructor.
+Homework: Homework will be assigned each class. These will not be collected, but one week
+later you will be asked to reproduce the solution to some of the problems in class without access
+to notes or the homework. The lowest 3 homework quiz grades will be dropped.
+Exams and Grading: Students will have success in the course if they work hard and maintain
+a good attitude. In addition to a cumulative nal exam, there will be two in-class examinations,
+as shown in the schedule. Your nal grade will be the maximum of the following two options:
+Total score = HwQ(0.25) + Classwork(0.25) + Exam 1(0.15) + Exam 2(0.15) + Final(0.20)
+or
+Total score = HwQ(0.25) + Classwork(0.25) + Best of Exam 1 and Exam 2(0.15) + Final(0.35)
+Monmouth University denes letter grades as follows: A = Exceptional performance, B = Strong
+performance, C = Adequate performance, D = Poor performance F = Failing performance
+(inadequate for college credit).
+A- is earned for a score of at least 90, B- for 80, C- for 70, D- for 60, whereas F is below 60.
+The last day to withdraw with a "W" grade is March 20. You will receive a midterm grade on
+March 7.
+Make-up exams and quizzes and will only be given for legitimate reasons (such as illness or
+emergency) with sucient supporting evidence.
+Decorum: Please come to class on time and once here, do not leave early. Students will be
+expected to display courteous behavior in their interactions with the instructor and fellow class-
+mates. Oensive or disruptive behavior is the cause for dismissal from the classroom. Computers
+should be used only when I specically approve, and only for class purposes. Anytime during
+class, cellphones andanyother electronic devices aretobeturned oandputaway soasnot
+todisturb theclass.
+Other Information
+Getting Help: When you have questions about the material, seek help from the instructor. Do
+not wait until it is too late to seek help!
+Most of the learning in a college math course is done outside the classroom (via preparation for
+next class and presentations, homework assignments, studying for exams), while the best way
+to proceed is by practicing. As such, any homework should be taken very seriously. You don't
+learn much from a problem you can do immediately. It is essential that you devote adequate
+time attempting to solve each assigned problem. You may learn a great deal from honest hard
+work on a problem, even if you don't succeed in solving it. Discipline and perseverance will pay
+o much more than just quick-wittedness. Read the assigned materials multiple times. It takes
+at least three times for an idea worth knowing to sink in.Form study groups with other students in the class.
+Math Learning Center isavailable fortutoring help with drop-in andbyappointment options.
+Check out hours of operation and details at the MLC webpage.
+I will give you continuous advice on how to be successful throughout the semester.
+Academic Honesty: Students should familiarize themselves with Monmouth's policies on Aca-
+demic Honesty and the Student Code of Conduct. Any violation of the Academic Policies will
+result in a grade of 0% for the assignment and may result in a failing grade for the course, sus-
+pension, or expulsion from Monmouth University . In particular, it is notacceptable to represent
+the work of another (including a peer, a tutor, a textbook, or an Internet source) as your own,
+nor is it acceptable to aid another student in falsely representing their work. For example, if
+a student allows another student to copy their homework, both students are in violation of the
+Academic Honesty policy.
+Special Accommodations: Students with disabilities who need accommodations for this
+course are encouraged to contact The Department of Disability Services as soon as possible.
+In order to receive accommodations, students must be registered with DDS as set forth in
+the Student Handbook and must follow the University procedure for self- disclosure, which is
+stated in the University Guide to Services and Accommodations for Students with Disabilities.
+Students will not be aorded any Accommodations prior to the completion of the registration
+process with DDS. Students who are interested in requesting accommodations can begin the
+process of registering with DDS by completing the Condential Registration Form located on
+DDS website. Students who wish to speak with a disability services administrator should email
+dds@monmouth.edu.
+Diversity Statement: The School of Science warmly embraces students, sta, and faculty of
+all races, genders, ethnicities, sexual orientations, and religions, including physical and cognitive
+dierences. Our School recognizes a commitment to diversity as part of our moral obligation
+to equity and fairness. We value the diverse experiences of our students, faculty and sta and
+celebrate the intellectual gifts diverse perspectives bring to create a learning environment that
+allows everyone to succeed and grow.
+Should you experience or observe bias and/or discriminatory or harassing behaviors of any sort,
+please know that many people are available to help. You can contact your professor, your
+academic advisor, the department chair, or any of the Deans. Also the Oce of Equity and
+Diversity and Intercultural Center serve the entire MU community.Course Schedule: A tentative weekly schedule of sections to be covered:
+Week Topics
+1 Numbers and Arithmetic, Basic Set Denitions and Properties
+2 Cartesian Product and Power Set, Domain, Range and Composition of Func-
+tions, Injective and Surjective Functions
+3 Bijective and Inverse Functions, Propositional Logic
+4 Propositional Logic, Predicate Logic
+5 Direct Proofs
+6 Direct Proofs, Proof by Cases
+7 Proof by the Contrapositive, Proof by Contradiction
+8 Mathematical Induction
+9 Strong Induction, Counting Rules
+10 More Counting Rules
+11 Pigeonhole Principle, Combinations and Permutations
+12 Modular Arithmetic, Primality and Relative Primality
+13 Multiplicative Inverses, Cryptography
+14 Final Exam
+I have read the syllabus and understand the general policies, how my grade will be computed,
+and I am aware of the resources available for help.
+Name: Date:
+Once electronically signed and dated, submit a copy to eCampus.
