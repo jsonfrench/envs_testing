@@ -14,12 +14,15 @@ class RobotAction(Enum):
     DOWN=1
     RIGHT=2
     UP=3
+    INTERACT=4
 
 # The Warehouse is divided into a grid. Use these 'tiles' to represent the objects on the grid.
 class GridTile(Enum):
     _FLOOR=0
     ROBOT=1
     TARGET=2
+    WALL=3
+    MEDICINE=4
 
     # Return the first letter of tile name, for printing to the console.
     def __str__(self):
@@ -72,6 +75,10 @@ class WarehouseRobot:
         img = pygame.image.load(file_name)
         self.goal_img = pygame.transform.scale(img, self.cell_size) 
 
+        file_name = path.join(path.dirname(__file__), "sprites/medicine.png")
+        img = pygame.image.load(file_name)
+        self.medicine_img = pygame.transform.scale(img, self.cell_size) 
+
 
     def reset(self, seed=None):
         # Initialize Robot's starting position
@@ -83,6 +90,26 @@ class WarehouseRobot:
             random.randint(1, self.grid_rows-1),
             random.randint(1, self.grid_cols-1)
         ]
+
+        # Set random medicine positons
+        # Medicine will not generate on target or other medicine
+        random.seed(seed)
+        self.medicine_pos = []
+        placements_left = 5
+        while placements_left > 0:
+            potential_pos = [
+                random.randint(1, self.grid_rows-1),
+                random.randint(1, self.grid_cols-1)
+            ]
+            if potential_pos in self.medicine_pos:
+                continue
+            if potential_pos == self.target_pos:
+                continue
+            self.medicine_pos.append(potential_pos)
+            placements_left -= 1
+
+        # Set amount of medicine the robot starts with
+        self.medicine_amt = 0
 
     def perform_action(self, robot_action:RobotAction) -> bool:
         self.last_action = robot_action
@@ -100,6 +127,11 @@ class WarehouseRobot:
         elif robot_action == RobotAction.DOWN:
             if self.robot_pos[0]<self.grid_rows-1:
                 self.robot_pos[0]+=1
+        elif robot_action == RobotAction.INTERACT:
+            if self.robot_pos in self.medicine_pos:
+                self.medicine_amt += 1
+                self.medicine_pos.remove(self.robot_pos)
+        print("Medicine:", self.medicine_amt)
 
         # Return true if Robot reaches Target
         return self.robot_pos == self.target_pos
@@ -113,6 +145,8 @@ class WarehouseRobot:
                     print(GridTile.ROBOT, end=' ')
                 elif([r,c] == self.target_pos):
                     print(GridTile.TARGET, end=' ')
+                elif([r,c] in self.medicine_pos):
+                    print(GridTile.MEDICINE, end=' ')
                 else:
                     print(GridTile._FLOOR, end=' ')
 
@@ -135,6 +169,10 @@ class WarehouseRobot:
                 if([r,c] == self.target_pos):
                     # Draw target
                     self.window_surface.blit(self.goal_img, pos)
+
+                if([r,c] in self.medicine_pos):
+                    # Draw medicine
+                    self.window_surface.blit(self.medicine_img, pos)
 
                 if([r,c] == self.robot_pos):
                     # Draw robot
