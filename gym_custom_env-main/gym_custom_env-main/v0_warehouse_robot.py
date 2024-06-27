@@ -15,6 +15,7 @@ class RobotAction(Enum):
     RIGHT=2
     UP=3
     INTERACT=4
+    
 
 # The Warehouse is divided into a grid. Use these 'tiles' to represent the objects on the grid.
 class GridTile(Enum):
